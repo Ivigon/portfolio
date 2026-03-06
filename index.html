@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ivanir Carvalho | Desenvolvedora Front-End Júnior</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Portfólio de Ivanir Carvalho, desenvolvedora front-end júnior focada em interfaces modernas, acessíveis e responsivas." />
+  <meta name="author" content="Ivanir Carvalho" />
+  <meta name="keywords" content="Desenvolvedora Front-End Júnior, HTML, CSS, JavaScript, Tailwind, Portfólio" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md fixed top-0 w-full z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Ivanir Carvalho</h1>
+      <nav class="space-x-6" aria-label="Navegação principal">
+        <a href="#sobre" class="hover:text-blue-500">Sobre</a>
+        <a href="#projetos" class="hover:text-blue-500">Projetos</a>
+        <a href="#contato" class="hover:text-blue-500">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-24">
+
+    <!-- Hero -->
+    <section class="text-center py-16 bg-blue-50">
+      <h2 class="text-4xl font-bold mb-4">
+        Desenvolvedora Front-End Júnior
+      </h2>
+      <p class="text-lg max-w-xl mx-auto">
+        Desenvolvedora em início de carreira, focada em criar interfaces modernas,
+        responsivas e acessíveis utilizando HTML, CSS, JavaScript e Tailwind CSS.
+      </p>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-16 px-6 max-w-4xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-4">Sobre mim</h3>
+      <p class="text-lg">
+        Sou Ivanir Carvalho, desenvolvedora front-end em início de carreira,
+        apaixonada por tecnologia e por transformar ideias em interfaces funcionais
+        e bem estruturadas.
+        <br><br>
+        Possuo conhecimentos em HTML, CSS, JavaScript e Tailwind CSS, e estou em
+        constante aprendizado, buscando evoluir tecnicamente, melhorar minhas
+        práticas de desenvolvimento e criar experiências cada vez melhores para
+        os usuários.
+        <br><br>
+        Busco uma oportunidade como desenvolvedora júnior ou estagiária para
+        aprender, colaborar em equipe e crescer profissionalmente.
+      </p>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="py-16 bg-gray-100 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h3 class="text-2xl font-semibold mb-8 text-center">Projetos</h3>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <!-- Projeto 1 -->
+          <div class="bg-white p-6 rounded-xl shadow-md">
+            <h4 class="text-xl font-bold mb-1">Portfólio Pessoal</h4>
+            <p class="text-sm text-gray-500 mb-2">
+              HTML • Tailwind CSS
+            </p>
+            <p class="text-gray-700 mb-4">
+              Site responsivo desenvolvido para apresentar meus projetos e
+              habilidades, com foco em layout limpo, semântica HTML e boas práticas
+              de front-end.
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">
+              Ver projeto →
+            </a>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="bg-white p-6 rounded-xl shadow-md">
+            <h4 class="text-xl font-bold mb-1">Lista de Tarefas</h4>
+            <p class="text-sm text-gray-500 mb-2">
+              HTML • CSS • JavaScript
+            </p>
+            <p class="text-gray-700 mb-4">
+              Aplicação simples para gerenciamento de tarefas, utilizando
+              manipulação do DOM e lógica em JavaScript.
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">
+              Ver projeto →
+            </a>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="bg-white p-6 rounded-xl shadow-md">
+            <h4 class="text-xl font-bold mb-1">Landing Page</h4>
+            <p class="text-sm text-gray-500 mb-2">
+              HTML • Tailwind CSS
+            </p>
+            <p class="text-gray-700 mb-4">
+              Landing page responsiva focada em estrutura visual, organização de
+              conteúdo e adaptação para diferentes tamanhos de tela.
+            </p>
+            <a href="#" class="text-blue-600 hover:underline">
+              Ver projeto →
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-16 px-6 max-w-4xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-4 text-center">Contato</h3>
+      <p class="text-center mb-6">
+        Fique à vontade para entrar em contato comigo pelo e-mail
+        <a href="mailto:ivi.silvacarvalho@gmail.com" class="text-blue-600 hover:underline">
+          ivi.silvacarvalho@gmail.com
+        </a>
+        ou pelo WhatsApp
+        <a href="https://wa.me/5551990197576" class="text-blue-600 hover:underline" target="_blank">
+          (51) 99019-7576
+        </a>.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-6 border-t">
+    <p class="text-sm text-gray-600">
+      &copy; 2025 Ivanir Carvalho. Todos os direitos reservados.
+    </p>
+  </footer>
+
+</body>
+</html>
